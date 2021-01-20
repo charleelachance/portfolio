@@ -106,7 +106,7 @@ header a:hover {
   padding: 10px 0;
 }
 
-.hero-container img {
+.hero-img {
   width: 100%;
   height: auto;
 }
@@ -116,7 +116,7 @@ header a:hover {
   justify-content: center;
 }
 
-.intro-container img {
+.profile-img {
   width: 40vw;
   height: auto;
   clip-path: circle(50% at 50% 50%);
@@ -162,13 +162,13 @@ header a:hover {
   justify-content: center;
 }
 
-.artwork-img-container img, .photography-img-container img {
+.preview-img {
   height: 100%;
   width: auto;
   transition: all 0.3s;
 }
 
-.artwork-img-container:hover img, .photography-img-container:hover img {
+.artwork-img-container:hover .preview-img, .photography-img-container:hover .preview-img {
   transform: scale(1.05);
 }
 
@@ -216,7 +216,7 @@ header a:hover {
   margin-top: 5rem;
 }
 
-.coding-container h2 {
+.red-title {
   color: #E1515F;
   font-size: 3rem;
 }
@@ -244,6 +244,27 @@ header a:hover {
 .skills-stars i {
   font-size: 3.5rem;
   margin-top: 2.4rem;
+  transition: all .3s;
+}
+
+#python-stars:hover .fas {
+  color: #F3A3AD
+}
+
+#html-stars:hover .fas {
+  color: #F6AA35;
+}
+
+#css-stars:hover .fas {
+  color: #58C18B;
+}
+
+#wordpress-stars:hover .fas {
+  color: #79D4C7;
+}
+
+#javascript-stars:hover .fas {
+  color: #3D99AB;
 }
 
 .projects-container {
@@ -252,7 +273,7 @@ header a:hover {
   align-items: center;
 }
 
-.projects-container h2 {
+.projects-container .red-title {
   margin: 6rem 0 4rem 0;
 }
 
@@ -267,13 +288,13 @@ header a:hover {
   margin-bottom: 4rem;
 }
 
-.coding-img-container img {
+.project-img {
   width: 80vw;
   height: auto;
   transition: all 0.3s;
 }
 
-.coding-img-container:hover img {
+.coding-img-container:hover .project-img {
   transform: scale(1.02);
 }
 

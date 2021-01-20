@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Charlee</title>
+    <link rel="icon" href="./images/ico-file-2.ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
@@ -37,11 +38,11 @@
 
     <div class="content-container">
       <section class="hero-container">
-        <img src="./images/hero-img.png" alt="Charlee Lachance, Welcome to my Portfolio">
+        <img src="./images/hero-img.png" alt="Charlee Lachance, Welcome to my Portfolio" class="hero-img">
       </section>
 
       <section class="intro-container">
-        <img src="./images/profile-picture.jpg" alt="Picture of myself">
+        <img src="./images/profile-picture.jpg" alt="Picture of myself" class='profile-img'>
 
         <div class="intro-text">
           <p>Hi, I'm Charlee!</p>
@@ -54,15 +55,15 @@
 
         <div class="artwork-examples">
           <div class='artwork-img-container'>
-            <img src="./images/amandla-stenberg.JPG" alt="Pencil sketch of Amandla Stenberg">
+            <img src="./images/amandla-stenberg.JPG" alt="Pencil sketch of Amandla Stenberg" class="preview-img">
           </div>
 
           <div class="artwork-img-container middle-img">
-            <img src="./images/emma-conrad.jpg" alt="Commission for my friend in acrylic paint">
+            <img src="./images/emma-conrad.jpg" alt="Commission for my friend in acrylic paint" class="preview-img">
           </div>
 
           <div class="artwork-img-container">
-            <img src="./images/woman-drawing.JPG" alt="Pencil drawing of woman with curly hair">
+            <img src="./images/woman-drawing.JPG" alt="Pencil drawing of woman with curly hair" class="preview-img">
           </div>
         </div>
 
@@ -74,15 +75,15 @@
 
         <div class="photography-examples">
           <div class="photography-img-container">
-            <img src="./images/tiny-flowers.JPG" alt="Lily of the Valley flowers in my garden">
+            <img src="./images/tiny-flowers.JPG" alt="Lily of the Valley flowers in my garden" class="preview-img">
           </div>
 
           <div class="photography-img-container middle-img">
-            <img src="./images/algae-tree.JPG" alt="Seaweed on rock in shape of tree">
+            <img src="./images/algae-tree.JPG" alt="Seaweed on rock in shape of tree" class="preview-img">
           </div>
 
           <div class="photography-img-container">
-            <img src="./images/ella-photo.JPG" alt="Profile of my friend Ella">
+            <img src="./images/ella-photo.JPG" alt="Profile of my friend Ella" class="preview-img">
           </div>
         </div>
 
@@ -92,19 +93,19 @@
       <section class="coding-container">
         <img src="./images/coding-img.PNG" alt="Coding" class="coding-img title-img">
 
-        <h2>Skills</h2>
+        <h2 class="red-title">Skills</h2>
 
         <div class="skills-container">
           <div class="skill-names">
-            <h3>Python</h3>
-            <h3>HTML</h3>
-            <h3>CSS</h3>
-            <h3>WordPress</h3>
-            <h3>JavaScript</h3>
+            <h3 id="python-label">Python</h3>
+            <h3 id="html-label">HTML</h3>
+            <h3 id="css-label">CSS</h3>
+            <h3 id="wordpress-label">WordPress</h3>
+            <h3 id="javascript-label">JavaScript</h3>
           </div>
 
           <div class="star-groups">
-            <div class="skills-stars">
+            <div class="skills-stars" id="python-stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -112,7 +113,7 @@
               <i class="far fa-star"></i>
             </div>
 
-            <div class="skills-stars">
+            <div class="skills-stars" id="html-stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -120,7 +121,7 @@
               <i class="fas fa-star"></i>
             </div>
 
-            <div class="skills-stars">
+            <div class="skills-stars" id="css-stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -128,7 +129,7 @@
               <i class="far fa-star"></i>
             </div>
 
-            <div class="skills-stars">
+            <div class="skills-stars" id="wordpress-stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -136,7 +137,7 @@
               <i class="far fa-star"></i>
             </div>
 
-            <div class="skills-stars">
+            <div class="skills-stars" id="javascript-stars">
               <i class="fas fa-star"></i>
               <i class="far fa-star"></i>
               <i class="far fa-star"></i>
@@ -147,15 +148,15 @@
         </div>
 
         <div class="projects-container">
-          <h2>Projects</h2>
+          <h2 class="red-title">Projects</h2>
 
           <div class="coding-examples">
             <div class="coding-img-container coding-img-container-1">
-              <img src="./images/building-website.png" alt="Screenshot of hero section of website, Charlee Lachance Web Development">
+              <img src="./images/building-website.png" alt="Screenshot of hero section of website, Charlee Lachance Web Development" class="project-img">
             </div>
 
             <div class="coding-img-container">
-              <img src="./images/future-imperfect.png" alt="Screenshot of Future Imperfect website">
+              <img src="./images/future-imperfect.png" alt="Screenshot of Future Imperfect website" class="project-img">
             </div>
           </div>
 
