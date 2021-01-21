@@ -1,0 +1,53 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.large-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.title-img {
+  margin-top: 0;
+}
+
+.artwork-img {
+  width: 45vw;
+}
+
+.photography-img {
+  width: 70vw;
+}
+
+#main-txt {
+  font-family: 'Rozha One', serif;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+.small-img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.image {
+  margin: 1rem;
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+.explanation {
+  font-size: 1.2rem;
+  font-family: 'Rozha One', serif;
+}

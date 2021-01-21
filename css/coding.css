@@ -1,0 +1,47 @@
+.title-img {
+  margin: 3rem 0 0 0;
+  width: 40vw;
+}
+
+.content-container, .web-dev, .website-container, .python-container, .python-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.web-dev-title {
+  margin-top: 1rem;
+}
+
+.website-container {
+  margin-bottom: 4rem;
+}
+
+.building-web-container {
+  margin-bottom: 7rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.more-button {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+}
+
+.python-links {
+  margin-bottom: 3rem;
+}
+
+.python-links a {
+  color: black;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  transition: all .3s;
+}
+
+.python-links a:hover {
+  color: #3D99AB;
+}

@@ -278,8 +278,8 @@ header a:hover {
 }
 
 .coding-img-container {
-  width: 80vw;
-  height: 41vw;
+  width: 70vw;
+  height: auto;
   margin: 0 auto 2rem auto;
   overflow: hidden;
 }
@@ -289,7 +289,7 @@ header a:hover {
 }
 
 .project-img {
-  width: 80vw;
+  width: 70vw;
   height: auto;
   transition: all 0.3s;
 }
