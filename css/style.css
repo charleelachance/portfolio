@@ -131,7 +131,7 @@ header a:hover {
 }
 
 .intro-text p {
-  font-size: 2rem;
+  font-size: max(3vw, 1.5rem);
 }
 
 .artwork-container, .photography-container {
@@ -141,7 +141,7 @@ header a:hover {
 }
 
 .artwork-img {
-  width: 35vw;
+  width: max(35vw, 300px);
   height: auto;
   margin: 4rem 0 2rem 0;
 }
@@ -199,7 +199,7 @@ header a:hover {
 }
 
 .photography-img {
-  width: 45vw;
+  width:  max(45vw, 325px);
   height: auto;
   margin: 4rem 0 .5rem 0;
 }
@@ -211,14 +211,14 @@ header a:hover {
 }
 
 .coding-img {
-  width: 32vw;
+  width: max(30vw, 250px);
   height: auto;
   margin-top: 5rem;
 }
 
 .red-title {
   color: #E1515F;
-  font-size: 3rem;
+  font-size: max(5vw, 2.2rem);
 }
 
 .skills-container {
@@ -274,7 +274,7 @@ header a:hover {
 }
 
 .projects-container .red-title {
-  margin: 6rem 0 4rem 0;
+  margin: 9vw 0 6vw 0;
 }
 
 .coding-img-container {
@@ -285,7 +285,7 @@ header a:hover {
 }
 
 .coding-img-container-1 {
-  margin-bottom: 4rem;
+  margin-bottom: 8vw;
 }
 
 .project-img {
@@ -299,7 +299,7 @@ header a:hover {
 }
 
 footer img {
-  margin: -5rem 0 0 0;
+  margin: -10vw 0 0 0;
   width: 100%;
   display: block;
 }
@@ -383,5 +383,72 @@ footer img {
 
   #close-menu {
     display: none;
+  }
+
+  .intro-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .profile-img {
+    width: 50vw;
+  }
+
+  .intro-text {
+    margin: 0;
+    width: 80vw;
+  }
+
+  .intro-container p {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2rem;
+  }
+
+  .middle-img {
+    margin: 0;
+  }
+
+  .skill-names h3 {
+    font-size: 2rem;
+    margin-top: 2.1rem;
+  }
+
+  .skills-stars i {
+    font-size: 2.5rem;
+  }
+
+  .artwork-container .more-button, .photography-container .more-button, .coding-container .more-button {
+    margin-top: 0;
+  }
+
+  .artwork-img-container, .photography-img-container {
+    width: 25vw;
+    height: 38vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro-text p {
+    font-size: 1.5rem;
+  }
+  
+  .skills-title {
+    margin: 0;
+  }
+
+  .skill-names h3 {
+    font-size: 1.3rem;
+    margin: 2.35rem 1.5rem 0 0;
+  }
+  
+  .skills-stars i {
+    font-size: 1.8rem;
+  }
+
+  .more-button {
+    font-size: 1.3rem;
+    padding: 10px 18px;
   }
 }
