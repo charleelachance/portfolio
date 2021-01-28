@@ -45,3 +45,17 @@ h3 {
 .python-links a:hover {
   color: #3D99AB;
 }
+
+@media screen and (max-width: 900px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .red-title {
+    font-size: 2rem;
+  }
+
+  .more-button {
+    font-size: 1.3rem;
+  }
+}
