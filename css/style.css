@@ -298,6 +298,38 @@ header a:hover {
   transform: scale(1.02);
 }
 
+.contact-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.contact-div i {
+  font-size: 3rem;
+  color: black;
+  transition: all .3s;
+}
+
+.contact-div a {
+  z-index: 20;
+}
+
+.insta-icon:hover i {
+  color: #E2505E;
+}
+
+.facebook-icon {
+  margin: 0 1rem;
+}
+
+.facebook-icon:hover i {
+  color: #3D99AB;
+}
+
+.mail-icon:hover i {
+  color: #F6AA35;
+}
+
 footer img {
   margin: -10vw 0 0 0;
   width: 100%;
