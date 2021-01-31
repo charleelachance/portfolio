@@ -36,13 +36,9 @@ for (const element of imagesList){
     // get the file location, width, and height from the image chosen
     let image = element.getAttribute('src')
     let text = element.getAttribute('alt')
-    // let width = element.getAttribute('width')
-    // let height = element.getAttribute('height')
 
-    // set the large image div bg-image url, width, and height using the image variable
+    // set the large image div bg-image url using the image variable
     largeImage.setAttribute('src', image)
-    // largeImage.setAttribute('width', width)
     imageText.textContent = text
-    // largeImage.setAttribute('height', height)
   })
 }
